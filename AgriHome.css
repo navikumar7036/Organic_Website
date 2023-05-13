@@ -1,0 +1,80 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0%;
+    margin: 0px;
+    background-color: chartreuse;
+}
+.description{
+    text-align: center;
+    padding-top: 20px;
+}
+
+#header h2{
+    text-align: center;
+    background-color: chocolate;
+    padding: 50px;
+    position: relative;
+    
+    
+}
+#image{
+    height: 30px;
+    width: 30px;
+}
+#body
+{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 16%;
+}
+
+.text1 {
+    margin: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 6);
+    width: 960px;
+    background: beige;  
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0.5px ;   
+    flex-direction: column;
+    display: float;
+    float: left;
+    clear: none;
+    padding: 2px 16px;
+    flex-wrap: wrap;
+    align-self: normal;
+}
+
+.click {
+    text-align: center;
+    background-color: aliceblue;
+    padding-left: 80px;
+    margin-top: 30px;
+    
+
+    
+
+}
+.click div.btn
+{
+    background-color: yellow;
+}
+.click button a span{
+    color: red;
+}
+.click hover{
+    color: blueviolet;
+    background-color: brown;
+}
+.body{
+   
+     align-self: normal;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 16%;
+}

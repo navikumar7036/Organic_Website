@@ -1,0 +1,118 @@
+#header{
+    text-align: center;
+}
+
+.click{
+    text-align: center;
+
+}
+.click hover{
+    color: blueviolet;
+    background-color: brown;
+}
+
+.magi{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 15%;
+    }
+    .body{
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 6);
+    width: 1000px;
+    height: 600px;
+    background: beige;
+    align-items: center;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 5px 10px;   
+    flex-direction: column;
+    display: float;
+    float: left;
+    clear: none;
+    padding: 2px 16px;
+    flex-wrap: wrap;
+    align-self: normal;
+   
+    }
+
+    .magazine{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 15%;
+}
+
+#magazine1{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 6);
+    width: 200px;
+    background: beige;
+    text-align: center;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 5px 10px;
+    text-align: center;
+    flex-direction: column;
+    display: float;
+    float: left;
+    clear: none;
+    padding: 2px 16px;
+    flex-wrap: wrap;
+    align-self: normal;
+}
+#Gallery{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 6);
+    width: 200px;
+    background: beige;
+    text-align: center;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px 20px;
+    text-align: center;
+    flex-direction: column;
+    display: float;
+    float: left;
+    clear: none;
+    padding: 2px 16px;
+    flex-wrap: wrap;
+    align-self: normal;
+}
+.gallery1{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 6);
+    width: 200px;
+    background: beige;
+    text-align: center;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 5px 10px;
+    text-align: center;
+    flex-direction: column;
+    display: float;
+    float: left;
+    clear: none;
+    padding: 2px 16px;
+    flex-wrap: wrap;
+    align-self: normal;
+}
+
+.gallery2{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 6);
+    width: 200px;
+    background: beige;
+    text-align: center;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px 15px;
+    text-align: center;
+    flex-direction: column;
+    display: float;
+    float: left;
+    clear: none;
+    padding: 2px 16px;
+    flex-wrap: wrap;
+    align-self: normal;
+}
+
+.color{
+    background: red url("./back.1.jpg") ;
+}

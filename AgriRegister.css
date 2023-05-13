@@ -1,0 +1,47 @@
+*{
+    
+    padding-left: 50px;
+    padding-right: 50px;
+    
+    
+   
+    
+   
+}
+.register1{
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    color: darkred;
+    
+    padding-right: 50px;
+    margin: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 6);
+    width: 960px;
+    background: green; 
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0.5px ;   
+    flex-direction: column;
+    display: float;
+    float: left;
+    clear: none;
+    padding: 2px 16px;
+    flex-wrap: wrap;
+    align-self: normal;
+   
+    
+}
+#image{
+    height: 50px;
+    width: 50px;
+    padding-left: 40px;
+    margin-left: 140px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+
+}
+#fieldset{
+    margin: 50px;
+}
+

@@ -1,0 +1,133 @@
+#header{
+    text-align: center;
+}
+
+.click{
+    text-align: center;
+
+}
+.click hover{
+    color: blueviolet;
+    background-color: brown;
+}
+
+.body{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 15%;
+}
+.magic{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 6);
+    width: 500px;
+    background: beige;
+    text-align: center;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0.5px 0.5px;
+    text-align: center;
+    flex-direction: column;
+    display: float;
+    float: left;
+    clear: none;
+    padding: 2px 16px;
+    flex-wrap: wrap;
+    align-self: normal;
+}
+
+.magic{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 6);
+    width: 500px;
+    background: beige;
+    text-align: center;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0.5px;
+    text-align: center;
+    display: float;
+    float: left;
+    clear: none;
+    padding: 2px 16px;
+    flex-direction: column;
+}
+
+.magazine{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 15%;
+}
+
+#magazine1{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 6);
+    width: 210px;
+    background: beige;
+    text-align: center;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px 1px;
+    text-align: center;
+    flex-direction: column;
+    display: float;
+    float: left;
+    clear: none;
+    padding: 2px 16px;
+    flex-wrap: wrap;
+    align-self: normal;
+}
+#Gallery{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 6);
+    width: 210px;
+    background: beige;
+    text-align: center;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px 30px;
+    text-align: center;
+    flex-direction: column;
+    display: float;
+    float: left;
+    clear: none;
+    padding: 2px 16px;
+    flex-wrap: wrap;
+    align-self: normal;
+}
+.gallery1{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 6);
+    width: 210px;
+    background: beige;
+    text-align: center;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px 5px;
+    text-align: center;
+    flex-direction: column;
+    display: float;
+    float: left;
+    clear: none;
+    padding: 2px 16px;
+    flex-wrap: wrap;
+    align-self: normal;
+}
+
+.gallery2{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 6);
+    width: 210px;
+    background: beige;
+    text-align: center;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px 25px;
+    text-align: center;
+    flex-direction: column;
+    display: float;
+    float: left;
+    clear: none;
+    padding: 2px 16px;
+    flex-wrap: wrap;
+    align-self: normal;
+}
+
+.color2{
+    background: red url("./back.1.jpg") ;
+}

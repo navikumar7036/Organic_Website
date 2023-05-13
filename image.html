@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+    .grid_image {
+        display: flex;
+        width: 90%;
+        margin: 0 auto;
+        flex-wrap: wrap;
+    }
+    .images {
+        display: block;
+        flex-basis: 100%;
+        padding: 15px;
+        border-radius: 50px;
+        
+    }
+    .linear {
+        height: 300px;
+        width: 300px;
+        background-image: linear-gradient( to top left, orange, white, green);
+    }
+    .liner1 {
+        height: 300px;
+        width: 300px;
+        background-image: linear-gradient(90deg, red,blue,yellow,orange,green,white);
+    }
+    .radial {
+        height: 300px;
+        width: 300px;
+        background-image: radial-gradient(yellow,orange,blue,red);
+    }
+    
+    @media only screen and (min-width:600px) {
+        .images {
+            flex-basis: 100%;
+        }
+    }
+    @media only screen and (min-width:800px) {
+        .images {
+            flex-basis: 50%;
+        }
+    }
+    @media only screen and (min-width:1000px) {
+        .images {
+            flex-basis: 33%;
+        }
+    }
+
+    </style>
+   
+</head>
+<body>
+    <h1>IMAGE GALLERY</h1>
+    
+    <!-- <div class="grid_image">
+        <img class="images" src="./1.jpg" alt="" height="450px" width="450px">                                              
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+         .
+        <img class="images" src="./2.jpg" alt="" height="450px" width="450px">
+        <img class="images" src="./3.jpg" alt="" height="450px" width="450px">
+        <img class="images" src="./4.jpg" alt="" height="450px" width="450px">
+        <img class="images" src="./5.jpg" alt="" height="450px" width="450px">
+        <img class="images" src="./6.jpg" alt="" height="450px" width="450px">
+        <img class="images" src="./7.jpg" alt="" height="450px" width="450px">
+        <img class="images" src="./8.jpg" alt="" height="450px" width="450px">
+        <img class="images" src="./9.jpg" alt="" height="450px" width="450px">
+    </div> -->
+
+    <div class="linear">
+
+    </div>
+    <div class="liner1"></div>
+    <div class="radial"></div>
+</body>
+</html>
